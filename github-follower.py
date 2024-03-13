@@ -1,10 +1,9 @@
 from github import Github
 import requests
 from time import sleep
-# PyGithub
-username = ""
-access_token = ""
 
+username = input("Enter the username:")
+access_token = "Enter the GitHub account token"
 
 def follow_user(username, access_token, user_to_follow):
     headers = {
