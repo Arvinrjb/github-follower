@@ -1,6 +1,7 @@
 from github import Github
-import requests
 from time import sleep
+import requests
+
 
 username = input("Enter the username:")
 access_token = "Enter the GitHub account token"
